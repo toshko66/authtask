@@ -8,7 +8,7 @@ const NavBar = () => {
       <SignedOut>
         <nav className="bg-gray-300 w-100 justify-between p-2 flex ">
           <div className=" ">
-            <Link href="/" className=''>
+            <Link href="/" className="text-xl">
               Home
             </Link>
           </div>
@@ -26,10 +26,10 @@ const NavBar = () => {
       <SignedIn>
         <nav className="bg-gray-300 w-100 justify-between items-center p-2 flex ">
           <div className=" gap-2">
-            <Link href="/" className='ml-5'>
+            <Link href="/" className='ml-5 text-xl'>
               Home
             </Link>
-            <Link href="dashboard" className='ml-5  '>
+            <Link href="dashboard" className='ml-5 text-xl  '>
               Dashboard
             </Link>
           </div>

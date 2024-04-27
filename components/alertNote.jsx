@@ -1,4 +1,4 @@
-import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
+import { Alert, AlertDescription, AlertTitle } from "../components/UI/alert";
 import { useUser } from "@clerk/nextjs";
 import { useState, useEffect } from "react";
 import { RocketIcon } from "lucide-react"

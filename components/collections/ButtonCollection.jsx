@@ -1,4 +1,4 @@
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "../components/UI/tabs"
 export default function ButtonCollection() {
   return (
     <Tabs defaultValue="account" className="w-[400px] pt-3">
