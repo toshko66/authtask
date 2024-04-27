@@ -2,13 +2,13 @@ import {
   Avatar,
   AvatarFallback,
   AvatarImage,
-} from "./ui/avatar"
+} from "./ui/Avatar"
 import {
   Card,
   CardContent,
   CardHeader,
   CardTitle,
-} from "./ui/card"
+} from "./ui/Card"
 
 export default function SalesBoard() {
   return (
