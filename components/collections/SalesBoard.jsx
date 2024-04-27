@@ -2,13 +2,13 @@ import {
   Avatar,
   AvatarFallback,
   AvatarImage,
-} from "./ui/avatar"
+} from "../ui/alert"
 import {
   Card,
   CardContent,
   CardHeader,
   CardTitle,
-} from "./ui/card"
+} from "../ui/card"
 
 export default function SalesBoard() {
   return (
@@ -32,7 +32,7 @@ export default function SalesBoard() {
         </div>
         <div className="flex items-center gap-4">
           <Avatar className="hidden h-9 w-9 sm:flex">
-            <AvatarImage src="/avatars/02.png" alt="Avatar" />
+            <AvatarImage src="" alt="Avatar" />
             <AvatarFallback>JL</AvatarFallback>
           </Avatar>
           <div className="grid gap-1">

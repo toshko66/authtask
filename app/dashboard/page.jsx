@@ -1,9 +1,9 @@
 "use client";
 import CardCollection from "../../components/collections/CardCollection"
 import ButtonCollection from "../../components/collections/ButtonCollection";
-import AlertNote from "../../components/alertNote";
-import SalesBoard from "../../components/SalesBoard";
-import Transactions from "../../components/transactions";
+import AlertNote from "../../components/collections/alertNote";
+import SalesBoard from "../../components/collections/SalesBoard";
+import Transactions from "../../components/collections/transactions";
 
 
 export default function Dashboard() {
