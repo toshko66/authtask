@@ -2,7 +2,7 @@ import {
   Avatar,
   AvatarFallback,
   AvatarImage,
-} from "../ui/alert"
+} from "../ui/avatar"
 import {
   Card,
   CardContent,

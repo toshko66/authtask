@@ -1,5 +1,5 @@
 import { Inter } from "next/font/google";
-import { ClerkProvider, SignInButton, SignedIn, SignedOut, UserButton } from '@clerk/nextjs'
+import { ClerkProvider } from '@clerk/nextjs'
 import "./globals.css";
 import NavBar from "../components/collections/navBar";
 import SalesBoard from "@/components/collections/SalesBoard";
