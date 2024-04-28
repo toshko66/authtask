@@ -11,6 +11,9 @@ const NavBar = () => {
             <Link href="/" className="text-xl">
               Home
             </Link>
+            <Link href="dashboard" className='ml-5 text-xl  '>
+              Dashboard
+            </Link>
           </div>
           <div className="mr-2">
             <Link className='mr-2' href="sign-in">
