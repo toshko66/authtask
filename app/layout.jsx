@@ -2,7 +2,7 @@ import { Inter } from "next/font/google";
 import { ClerkProvider } from '@clerk/nextjs'
 import "./globals.css";
 import NavBar from "../components/collections/navBar";
-import SalesBoard from "@/components/collections/SalesBoard";
+
 
 const inter = Inter({ subsets: ["latin"] });
 

@@ -6,9 +6,6 @@ import { RedirectToSignUp, } from "@clerk/nextjs";
 function LandingPage() {
   return (
     <div className="font-sans text-gray-900 antialiased">
-
-
-
       <section className="bg-gray-100">
         <div className="container mx-auto px-6 py-20 text-center">
           <h2 className="text-3xl font-bold text-gray-800">Welcome to Brand</h2>
@@ -18,7 +15,6 @@ function LandingPage() {
               Get Started
             </Link>
           </button>
-
         </div>
       </section>
 
