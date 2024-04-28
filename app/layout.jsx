@@ -14,8 +14,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <ClerkProvider
+      publishableKey={process.env.NEXT_PUBLIC_CLERK_PUB_KEY}
       signInFallbackRedirectUrl="/dashboard"
-      signUpFallbackRedirectUrl="/onboarding">
+      signUpFallbackRedirectUrl="/dashboard">
       <html lang="en">
         <body>
           <header>
