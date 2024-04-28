@@ -19,7 +19,7 @@ export default function AlertNote() {
     return null;
   }
 
-  console.log(user);
+
 
   return (
     <>
